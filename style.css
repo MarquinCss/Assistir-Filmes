@@ -1,0 +1,223 @@
+/*Style Css*/
+/*Por Marco Marchi Github: MarquinCss*/
+@import url('https://fonts.cdnfonts.com/css/gotham');
+/*Formatações padrão*/
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-family: 'Gotham Black', sans-serif;
+}
+
+*::selection{
+	color:black;
+	background-color:white;
+}
+
+
+body{
+	background-color:#1c1c1c;
+	
+	
+}
+/*Header Cabeçalho*/
+
+.cabecalho {
+     padding:-30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+	font-family: 'Gotham Black', sans-serif;
+
+	
+  }
+  
+  .cabecalho-imagem {
+      position:relative;
+      left:50px;
+    height: 120px;
+	width:160px;
+	height:160px;
+  }
+  
+  .cabecalho-menu {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .cabecalho-menu-item {
+      font-size:25px;
+	  color:#ffff;
+font-family: 'Gotham Black', sans-serif;
+    transition:transform .5s;
+  }
+
+  .cabecalho-menu-item:hover{
+    transform:scale(0.98);
+  }
+
+ 
+  
+  .lancamentos{
+	  text-align:center;
+	  display:flex;
+	  justify-content:center;
+	  align-items:center;
+	  
+	
+  }
+  
+  h1,h2,h3,h4{
+	  text-align:center; 
+	  color:white;
+	  padding:10px;
+	  margin:10px;
+	   }
+	   
+	
+	   
+	   
+	
+/*Catálagos*/
+.lançamentos{
+display:flex;
+flex-direction:row ;
+
+
+}	
+
+.animes{
+display:flex;
+flex-direction:row ;
+	}
+	
+	/*Formatação geral dos filmes */
+.filme{
+	margin:10px;
+	object-fit:cover;
+	width:250px;
+	height:500px;
+	cursor:pointer;
+}
+
+.filme:hover{
+	filter:contrast(1.4);
+
+
+
+}
+/*Estilização Do Botão*/
+button{
+	width:70px;
+	height:30px;
+	border-radius:5%;
+}
+
+
+button:hover {
+
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+
+/*Estilização Do A href*/
+ a{color:black;}
+}
+a:before {
+  height: 0%;
+  width: 5px;
+}
+
+a:hover {
+
+ text-shadow:0 0 0.2em gray, 0 0 0.2em gray,
+        0 0 0.2em black;
+border-radius:10%;
+}
+
+.credito{
+	color:black;
+	text-shadow:0 0 0.2em white, 0 0 0.2em gray,
+        0 0 0.2em black}
+
+
+/*Footer/Rodapé*/
+p{color:white;
+	
+}
+footer{
+	background-color:black;
+	text-align:center;
+	
+}
+.cred{
+text-shadow: 0 0 0.2em #8F7}
+
+/*Vídeos*/
+
+video{
+	position:relative;
+	left:200px;
+	width:600px;
+	height:300px;
+	
+}
+.cont{
+	text-align:center;
+}
+
+form{
+	width:500px;
+	height:500px;
+	display:flex;
+	gap:30px;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	font-size:30px;
+	color:white;
+	
+}
+
+label:hover{
+	text-shadow:0 0 0.2em gray, 0 0 0.2em gray,
+        0 0 0.2em black;
+	
+}
+
+input:focus{
+	border:5px solid gray;
+}
+
+input{
+	width:300px;
+	height:50px;
+}
+
+
+.sub{
+	width:155px;
+	height:90px;
+	font-size:30px;
+	
+}
+
+.contu{
+	display:flex;
+	flex-direction:row;
+	
+}
+
+.apre{
+	width:600px;
+	height:500px;
+}
+
+.buto{
+	flex-direction:row;
+}
